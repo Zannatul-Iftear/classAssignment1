@@ -1,0 +1,264 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -------------------------- NAVBAR -------------------------- */
+
+nav{
+  background-color: #ffdfc2;
+  height: 75px;
+  width: 100%;
+}
+
+.navLogo{
+  height: 75px;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 75px;
+  margin: 0 15px;
+}
+
+nav ul li a{
+  color: #6b1909;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover{
+  color: #d67f12;
+}
+
+nav ul li #buyButton{
+  border: 2px solid #6b1909;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+nav ul li #buyButton:hover{
+  color:#ffffff;
+  border: 2px solid #d67f12;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #d67f12;
+}
+
+/* -------------------------- HEADER -------------------------- */
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height :600px;
+  background-image: url("img/header.jpg");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.headText1 {
+  font-size: 20px; 
+  color: white; 
+  text-shadow: 5px 5px 10px #000000;
+}
+
+.headText2 {
+  font-size: 50px; 
+  font-weight: bold;
+  color: white; 
+  text-shadow: 10px 10px 20px #000000;
+  margin: 20px;
+}
+
+.visitStoreButton{
+  color: #6b1909;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center; 
+  background-color: #ffdfc2;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.visitStoreButton:hover{
+  color: #d67f12;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center; 
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+/* -------------------------- PARAGRAPH -------------------------- */
+
+.paragraph-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  margin: 20px 20%;
+  width: 60%;
+}
+
+.paraHeading{
+  color: #6b1909;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px; 
+  font-weight: bold;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.paraText{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px; 
+  padding: 0px 15%;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.paraBottom{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 18px; 
+  padding: 30px 0px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.highlight{
+  color: #d67f12;
+}
+
+/* -------------------------- IMAGE LINKS -------------------------- */
+
+.imageLink-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  margin: 20px 20%;
+  width: 60%;
+}
+
+.imageLink{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  margin: 20px 10px;
+  width: 60%;
+}
+
+.imgLinkHeading{
+  color: #d67f12;
+  font-size: 20px; 
+  font-weight: bold;
+  padding: 30px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.imgLinkText{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px; 
+  text-align: center;
+  line-height: 1.6;
+}
+
+.imgLinkBottom{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 18px; 
+  padding: 30px 0px;
+  text-align: center;
+  line-height: 1.6;
+  color: #d67f12;
+}
+
+.imgLinkPhoto{
+  max-width: 450px;
+}
+
+/* -------------------------- SOCIALS -------------------------- */
+
+.socials-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d67f12;
+  padding: 30px 0px;
+}
+
+#socialsTwitter{
+  background-image: url("img/Icon_Twitter.png");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 0px 5px;
+}
+
+#socialsInstagram{
+  background-image: url("img/Icon_Instagram.png");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 0px 5px;
+}
+
+#socialsTiktok{
+  background-image: url("img/Icon_Tiktok.png");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 0px 5px;
+}
+
+#socialsDiscord{
+  background-image: url("img/Icon_Discord.png");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 0px 5px;
+}
+
+/* -------------------------- FOOTER -------------------------- */
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #6b1909;
+  padding: 60px 0px;
+}
+
+#address{
+  font-size: 15px; 
+  color:#ffdfc2;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+#copyright{
+  font-size: 12px; 
+  color:#d67f12;
+  text-transform: uppercase;
+}
